@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T10:08:32.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="18.1.1" etag="eU5pGMKUEADzvCZ-vzpA" type="github"><diagram id="UlqErWs8GX3JdKQ6FByI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-13T08:22:25.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="4JmW5bZycisvLnkvSKk_" version="18.1.1" type="github">
+  <diagram id="UlqErWs8GX3JdKQ6FByI" name="Page-1">
+    <mxGraphModel dx="780" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZZlG4CKPB5GLrOi8M1_q-1" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="700" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZlG4CKPB5GLrOi8M1_q-2" value="배터리 부족 감지" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="553" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZlG4CKPB5GLrOi8M1_q-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZlG4CKPB5GLrOi8M1_q-1" target="ZZlG4CKPB5GLrOi8M1_q-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="1020" as="sourcePoint" />
+            <mxPoint x="420" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZlG4CKPB5GLrOi8M1_q-5" value="기타 비정상 작동 감지" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="733" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZlG4CKPB5GLrOi8M1_q-6" value="농약 부족 감지" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="643" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZlG4CKPB5GLrOi8M1_q-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZlG4CKPB5GLrOi8M1_q-1" target="ZZlG4CKPB5GLrOi8M1_q-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="1020" as="sourcePoint" />
+            <mxPoint x="420" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZlG4CKPB5GLrOi8M1_q-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZlG4CKPB5GLrOi8M1_q-1" target="ZZlG4CKPB5GLrOi8M1_q-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="755" as="sourcePoint" />
+            <mxPoint x="340" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZlG4CKPB5GLrOi8M1_q-9" value="드론 스테이션 복귀" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="823" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZlG4CKPB5GLrOi8M1_q-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZlG4CKPB5GLrOi8M1_q-1" target="ZZlG4CKPB5GLrOi8M1_q-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="990" as="sourcePoint" />
+            <mxPoint x="420" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
